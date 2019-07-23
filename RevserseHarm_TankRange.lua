@@ -1,4 +1,4 @@
-function() 
+function main() 
     -- change tank1 and tank2 local variables to match main tanks of group. 
     local tank1 = "Daruul"
     local tank2 = "Ermehdin"
@@ -15,7 +15,7 @@ function()
             return  "|cffff3333FALSE|r"
             
         elseif(WeakAuras.CheckRange(tank2, 10, ">")) then
-            return  "|cffff3333FALSE|r"
+            return  "|cffff3333FALSE|r"	
             
         end
     end
